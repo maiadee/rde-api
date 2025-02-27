@@ -40,8 +40,6 @@ class AdminProposalListView(APIView):
         serializes_proposals = PopulatedProposalSerializer(proposals, many=True)
         return Response(serializes_proposals.data)
 
-    #  filter per talent
-
    
 class SingleProposalView(APIView):
     permission_classes = [IsAuthenticated]
