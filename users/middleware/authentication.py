@@ -8,6 +8,7 @@ User = get_user_model()
 
 class JWTAuthentication(BaseAuthentication):
     def authenticate(self, request):
+
         if not request.headers:
             return None
 
@@ -33,4 +34,5 @@ class JWTAuthentication(BaseAuthentication):
             return (user, token)
         except Exception as e:
             print(e)
+
             raise AuthenticationFailed('Invalid credentials provided')

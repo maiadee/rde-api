@@ -41,7 +41,6 @@ class LoginView(APIView):
                     'user': {
                         'id': user.id,
                         'username': user.username,
-                        'profile_image': user.profile_image,
                         'is_admin': user.is_staff
                     },
                     'exp': int(exp_date.strftime('%s'))
@@ -56,6 +55,7 @@ class LoginView(APIView):
         except (User.DoesNotExist, ValidationError) as e:
             # If either a DoesNotExist or a ValidationError is raised inside the catch, this except block will catch it
             print(e)
+       
             raise NotAuthenticated('Invalid credentials')
 
 
