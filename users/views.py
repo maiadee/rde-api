@@ -15,8 +15,10 @@ class RegisterView(APIView):
         serialized_user = UserSerializer(data=request.data)
         if serialized_user.is_valid():
             serialized_user.save()
+            print(serialized_user.data)
             return Response(serialized_user.data, 201)
         return Response(serialized_user.errors, 422)
+    
 
     
 class LoginView(APIView):
