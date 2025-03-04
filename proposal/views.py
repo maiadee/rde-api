@@ -47,7 +47,7 @@ class SingleProposalView(APIView):
     def get(self, request, proposal_id):
         try:
             proposal = Proposal.objects.get(id=proposal_id)
-            serialized_proposal = ProposalSerializer(proposal)
+            serialized_proposal = PopulatedProposalSerializer(proposal)
             return Response(serialized_proposal.data)
         except Proposal.DoesNotExist as e:
             raise NotFound('Proposal not found')
