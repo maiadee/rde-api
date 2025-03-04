@@ -8,7 +8,7 @@ class Proposal(models.Model):
         ("pending", "Pending"),
         ("accepted", "Accepted"),
         ("rejected", "Rejected"),
-        ("under_offer", "Under Offer"),
+        ("under_review", "Under Review"),
     ]
 
     user = models.ForeignKey(to=User, on_delete=models.CASCADE, related_name='submitted_proposals')
