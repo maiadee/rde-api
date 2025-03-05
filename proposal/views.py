@@ -71,7 +71,10 @@ class SingleProposalView(APIView):
     def delete(self, request, proposal_id):
         try:
             proposal = Proposal.objects.get(id=proposal_id)
-            proposal.delete()
-            return Response(status=204)
+            if request.user.is_staff or proposal.user == request.user:
+                proposal.delete()
+                return Response(status=204)
+            else:
+                return Response({"error": "You do not have permission to delete this proposal"}, status=403)
         except Proposal.DoesNotExist as e:
             raise NotFound('Proposal not found')
