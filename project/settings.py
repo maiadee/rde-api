@@ -58,7 +58,7 @@ else:
     ]
 
     CSRF_TRUSTED_ORIGINS = [
-        "https://your-backend.herokuapp.com", # Deployed backend url only
+        "rde-1b3edd544280.herokuapp.com", # Deployed backend url only
     ]
 
 CORS_ALLOW_HEADERS = ["authorization"]  # Sometimes needed for JWT authentication
