@@ -12,6 +12,7 @@ pylint = "*"
 autopep8 = "*"
 psycopg2-binary = "*"
 djangorestframework = "*"
+whitenoise = "*"
 
 [dev-packages]
 
