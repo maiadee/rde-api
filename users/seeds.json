@@ -1,0 +1,56 @@
+[
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$9JYvQVYu7Tg1VviSoXmpTS$5H8fUkIz6xgBqNjBNGcMZeSegFfBco4yM591+ZP6AT4=",
+    "last_login": "2025-03-01T12:05:19.149Z",
+    "is_superuser": true,
+    "username": "maiadeemmony",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-02-26T12:33:33.297Z",
+    "email": "maia@maia.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$j3FO8wP3Xq50HnPIEMWzQX$zHutIWxEvojGvcawMt/8o80Eo187NcDHHq46XJzWazc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "rubydeemmony",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-03-03T16:24:41.996Z",
+    "email": "ruby@ruby.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$QojSzm4BlRhtvkTqjrOqJm$3Elesy3SgLqDhtrBT53EjZs39xOdcjfG72fB/FPo9qM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "phoebe1",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-03-04T12:07:12.194Z",
+    "email": "phoebe@phoebe.com",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

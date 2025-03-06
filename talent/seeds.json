@@ -1,0 +1,212 @@
+[
+{
+  "model": "talent.talent",
+  "pk": 1,
+  "fields": {
+    "name": "Hatty Stewart",
+    "location": "London",
+    "occupation": "IL",
+    "description": "Hatty is a London-based artist and\r\nillustrator with a varied portfolio. With a vibrant,\r\ntongue in cheek visual identity, she is a self-\r\nproclaimed ‘professional doodler’ with a unique and\r\nplayful illustration style that extends itself through\r\nthe worlds of advertising, animation, art and fashion.\r\n\r\nClients include Gucci, Apple, Lotte, The New York\r\nTimes, Estee Lauder, MAC, Samsung, Google,\r\nAdidas, Wacom, Tommy Hilfiger and more.",
+    "profile_image": "talent_profiles/hattie-car.png"
+  }
+},
+{
+  "model": "talent.talent",
+  "pk": 2,
+  "fields": {
+    "name": "Mary Fare",
+    "location": "London",
+    "occupation": "IL",
+    "description": "Specialising in character design, bold colours and\r\ngraphic compositions, French Artist & Illustrator\r\nMary aspires to create artwork that\r\ninvokes joy with her cheeky and playful style.\r\n\r\nWith the intention of tackling the issues she cares\r\nabout, Mary’s career has seen her working on\r\nmany personal and collaborative projects with\r\nglobal brands that focus on social or ethical causes.\r\n\r\nPrevious clients include Nike, Kiehl’s, Levis, Adidas,\r\nVolkswagen, Kipling, Netflix, Apple, Spotify, Youtube\r\nand many more",
+    "profile_image": "talent_profiles/marylou-beurre.webp"
+  }
+},
+{
+  "model": "talent.talent",
+  "pk": 3,
+  "fields": {
+    "name": "Jasmine Sera",
+    "location": "London",
+    "occupation": "IL",
+    "description": "Jasmine is a freelance illustrator and designer\r\npassionate about identity, empowerment, self-love\r\nand positivity through her artwork. Her love for\r\nvintage graphics, nature, bold typography\r\nreminiscent of vintage film posters and cassette\r\ntapes, have formed her colourful visual identity in\r\nillustration, typography and design.\r\n\r\nShe has worked with a diverse roster of global\r\nclients specialising in illustration, murals, painting,\r\ndesign, typography, hand lettering, creative\r\nworkshops, 3D animation, product and apparel\r\ndesign, engraving, bespoke hand-painted\r\ncustomised products, live art and branded event\r\nactivations.\r\n\r\nAs a believer to use her creativity to unite and\r\ninspire, she has also held creative workshops and\r\nhas been a speaker in talks and festivals as well as\r\nbeing the face of global branded campaigns.\r\n\r\nHer work has been championed by platforms\r\nincluding Vice, D&AD, Hype Beast, It’s Nice That,\r\nCreative Review, gal-dem, Stylist, Mass Appeal and\r\nmore.",
+    "profile_image": "talent_profiles/jasmine-airmaxday.jpg"
+  }
+},
+{
+  "model": "talent.talent",
+  "pk": 4,
+  "fields": {
+    "name": "Tom&Ink",
+    "location": "London",
+    "occupation": "IL",
+    "description": "TOM&INK is a London based illustrator and author\r\nwho creates work that makes you feel empowered,\r\nconfident and all warm and fuzzy inside. Recurring\r\nthemes in their work are LGBTQ+ rights, mental\r\nhealth awareness, body positivity and drag.\r\n\r\nTom has released two books, ‘Free To Be Me' an\r\nLGBTQ+ journal of Love, Pride and Finding Your\r\nInner Rainbow, published by Penguin Random\r\nHouse UK and ‘Queer Power’, an illustrated journal\r\nof LGBTQ+ icons, activists and game changers from\r\nacross the rainbow.\r\n\r\nTom is currently working on their upcoming young\r\nadult graphic novel, ‘Queens of the Crypt’ - Also to\r\nbe published by Penguin.\r\n\r\nTom’s client list includes Little Mix, Cheryl, The X-\r\nFactor, Selfridges, Skinny Dip, Emma Watson’s ‘Our\r\nShared Shelf’ and more. They are also the official\r\nillustrator Ru Paul’s Drag Race UK.\r\n\r\nTom has also been lucky enough to be feature in\r\nCosmopolitan, Gay Times, Glamour, Buzzfeed and\r\nTime Out.",
+    "profile_image": "talent_profiles/dom-transrights.png"
+  }
+},
+{
+  "model": "talent.talent",
+  "pk": 5,
+  "fields": {
+    "name": "Muragih",
+    "location": "London",
+    "occupation": "IL",
+    "description": "Murgih is a multi-disciplinary artist, illustrator &\r\ndesigner working in London.\r\n\r\nUsing a colourfully surreal visual aesthetic he\r\nplayfully explores the macabre and bittersweet\r\nexperience of his daily life & identity.\r\n\r\nInfused with candy coated dreams and peppered\r\nwith South Asian motifs, his work - encompassing\r\nfilm, architecture, art & design - resonates with\r\nthose also seeking kindness, authenticity &\r\ncompassion.",
+    "profile_image": "talent_profiles/murugiah-spiritedaway.jpg"
+  }
+},
+{
+  "model": "talent.talent",
+  "pk": 6,
+  "fields": {
+    "name": "Anna Kilpelain",
+    "location": "London",
+    "occupation": "IL",
+    "description": "Anna is a Finnish born illustrator who\r\nlives and works in London. A graduate of London\r\nCollect of Communication, Anna’s portfolio bursts\r\nwith character depicting summery scenes of urban\r\nlandscapes, the energy of the city, pattern, portraits\r\nand narrative with a distinctly tropical vibe.\r\n\r\nHer work has appeared in magazines such as The\r\nGourmand, Lucky Peach and Yen and her vivid\r\npatterns can be found on anything from book covers\r\nto blankets and skateboards - collaborating with\r\nbrands such as Samsung, Barbie, Levis and Haagen\r\nDazs to name a few.\r\n\r\nInspired by stills, Anna’s illustrations exist somewhere\r\nbetween a comic and a painting. Her feel-good\r\naesthetic and flirtatious scenes are inherently\r\neuphoric, while her confident use of lurid rich colours\r\nembraces the extravagance of youth.",
+    "profile_image": "talent_profiles/annu-mural.png"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 1,
+  "fields": {
+    "talent": 1,
+    "image": "talent_gallery/hattie-mirror.webp"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 2,
+  "fields": {
+    "talent": 1,
+    "image": "talent_gallery/hattie-gucci.webp"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 3,
+  "fields": {
+    "talent": 1,
+    "image": "talent_gallery/hattie-hello-kitty.webp"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 4,
+  "fields": {
+    "talent": 2,
+    "image": "talent_gallery/marylou-samsung.webp"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 5,
+  "fields": {
+    "talent": 2,
+    "image": "talent_gallery/marylou-run.webp"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 6,
+  "fields": {
+    "talent": 2,
+    "image": "talent_gallery/marylou-nike.webp"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 7,
+  "fields": {
+    "talent": 3,
+    "image": "talent_gallery/jasmine-cocacola.jpg"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 8,
+  "fields": {
+    "talent": 3,
+    "image": "talent_gallery/jasmine-chipotle.jpg"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 9,
+  "fields": {
+    "talent": 3,
+    "image": "talent_gallery/jasmine-courier.jpg"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 10,
+  "fields": {
+    "talent": 5,
+    "image": "talent_gallery/murugiah-nfg.jpg"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 11,
+  "fields": {
+    "talent": 5,
+    "image": "talent_gallery/murugiah-compassion.png"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 12,
+  "fields": {
+    "talent": 5,
+    "image": "talent_gallery/murugiah-iceberg.jpg"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 13,
+  "fields": {
+    "talent": 6,
+    "image": "talent_gallery/annu-nyt.jpg"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 14,
+  "fields": {
+    "talent": 6,
+    "image": "talent_gallery/annu-flower.jpg"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 15,
+  "fields": {
+    "talent": 6,
+    "image": "talent_gallery/annu-FI.jpg"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 16,
+  "fields": {
+    "talent": 4,
+    "image": "talent_gallery/dom-nicola.png"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 17,
+  "fields": {
+    "talent": 4,
+    "image": "talent_gallery/dom-green.png"
+  }
+},
+{
+  "model": "talent.talentimage",
+  "pk": 18,
+  "fields": {
+    "talent": 4,
+    "image": "talent_gallery/dom-jade.png"
+  }
+}
+]

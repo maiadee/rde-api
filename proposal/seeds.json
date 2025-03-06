@@ -1,0 +1,32 @@
+[
+{
+  "model": "proposal.proposal",
+  "pk": 4,
+  "fields": {
+    "user": 1,
+    "talent": 1,
+    "brand": "Gucci",
+    "project_title": "Project1",
+    "project_proposal": "a project for hattie",
+    "budget": "4000.00",
+    "deadline": "2025-03-21",
+    "status": "pending",
+    "created_at": "2025-03-03T11:40:29.656Z"
+  }
+},
+{
+  "model": "proposal.proposal",
+  "pk": 7,
+  "fields": {
+    "user": 15,
+    "talent": 3,
+    "brand": "nike",
+    "project_title": "Project1",
+    "project_proposal": "bgtrvtdgtt",
+    "budget": "400.00",
+    "deadline": "2025-03-23",
+    "status": "accepted",
+    "created_at": "2025-03-04T10:44:21.811Z"
+  }
+}
+]
