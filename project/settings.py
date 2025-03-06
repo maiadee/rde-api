@@ -62,6 +62,7 @@ else:
     ]
 
 CORS_ALLOW_HEADERS = ["authorization"]  # Sometimes needed for JWT authentication
+CORS_ALLOW_CREDENTIALS = True
 
 # Application definition
 
@@ -84,8 +85,8 @@ INSTALLED_APPS = [
 # ]
 
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
     'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
