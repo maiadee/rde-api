@@ -58,7 +58,7 @@ else:
     ]
 
     CSRF_TRUSTED_ORIGINS = [
-        "rde-1b3edd544280.herokuapp.com", # Deployed backend url only
+        "https://rde-1b3edd544280.herokuapp.com", # Deployed backend url only
     ]
 
 CORS_ALLOW_HEADERS = ["authorization"]  # Sometimes needed for JWT authentication
@@ -79,9 +79,9 @@ INSTALLED_APPS = [
     'corsheaders'
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173'
-]
+# CORS_ALLOWED_ORIGINS = [
+#     'http://localhost:5173'
+# ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
