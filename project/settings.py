@@ -54,7 +54,7 @@ else:
     ALLOWED_HOSTS = ['rde-1b3edd544280.herokuapp.com'] # don't include the protocol (https://)
 
     CORS_ALLOWED_ORIGINS = [
-        "https://your-frontend.com", # Deployed frontend url only
+        "https://brilliant-dasik-97a8a6.netlify.app", # Deployed frontend url only
     ]
 
     CSRF_TRUSTED_ORIGINS = [
